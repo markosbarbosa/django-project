@@ -1,0 +1,30 @@
+/* Estilos para alertas de sucesso de warnings*/
+.action-notify {
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	opacity: 0.9;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+/* Grid de usuários */
+
+.panel-heading {
+	overflow: auto;
+}
+
+#quantidade-paginas {
+	width: auto;
+	float: right;
+}
+
+#quantidade-paginas label {
+	font-weight: normal;
+}
+
+#quantidade-paginas select {
+	width: initial;
+	display: inline-block;
+}

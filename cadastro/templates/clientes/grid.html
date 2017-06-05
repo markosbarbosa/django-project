@@ -1,0 +1,58 @@
+<div class="panel panel-default" style="margin-top: 30px;">
+	<div class="panel-heading">Usuários cadastrados
+
+		<div  id="quantidade-paginas">
+			<label for="resultadosPorPagina">Resultados por página</label>
+			<select id="resultadosPorPagina" class="form-control">
+				<option>10</option>
+				<option>20</option>
+				<option>50</option>
+				<option>100</option>
+			</select>
+
+		</div>
+
+	</div>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Nome</th>
+				<th>E-mail</th>
+				<th>Telefone celular</th>
+				<th>Ações</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr v-for="cliente in clientesList">
+				<th scope="row"></th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<a href="#" >Editar</a> |
+					<a href="#" data-toggle="modal" data-target="#modalConfirmacao">Excluir</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<nav aria-label="Page navigation">
+	<ul class="pagination">
+		<li>
+			<a href="#" aria-label="Previous">
+				<span aria-hidden="true">&laquo;</span>
+			</a>
+		</li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li>
+			<a href="#" aria-label="Next">
+				<span aria-hidden="true">&raquo;</span>
+			</a>
+		</li>
+	</ul>
+</nav>
